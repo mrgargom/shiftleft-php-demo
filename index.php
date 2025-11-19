@@ -1,27 +1,9 @@
 <?php
-$page = $_GET['page'] ?? 'home';
+/**
+ * Academic Advisor Appointment System
+ * Main Application Bootstrap
+ */
 
-include 'header.php';
+// Load the router
+require_once __DIR__ . '/routes/web.php';
 
-switch ($page) {
-    case 'login':
-        include 'login.php';
-        break;
-    case 'blog':
-        include 'blog.php';
-        break;
-    case 'about':
-        include 'about.php';
-        break;
-    case 'gallery':
-        include 'gallery.php';
-        break;
-    case 'pdf':
-        include 'pdf.php';
-        break;
-    default:
-        include 'home.php';
-}
-
-include 'footer.php';
-?>

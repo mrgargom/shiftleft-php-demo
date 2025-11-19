@@ -1,0 +1,53 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+database/*.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/*
+!storage/logs/.gitkeep
+
+# Cache
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+!storage/framework/cache/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+
+# Uploads
+storage/app/*
+!storage/app/.gitkeep
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Dependencies
+/vendor/
+/node_modules/
+composer.phar
+package-lock.json
+yarn.lock
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+*.backup
