@@ -4,13 +4,13 @@
  * Creates sample data for testing the application
  */
 
-require_once __DIR__ . '/../config/database.php';
-require_once __DIR__ . '/../app/Models/User.php';
-require_once __DIR__ . '/../app/Models/Student.php';
-require_once __DIR__ . '/../app/Models/Advisor.php';
-require_once __DIR__ . '/../app/Models/Administrator.php';
-require_once __DIR__ . '/../app/Models/Availability.php';
-require_once __DIR__ . '/../app/Models/Appointment.php';
+require_once __DIR__ . '/../../config/database.php';
+require_once __DIR__ . '/../../app/Models/User.php';
+require_once __DIR__ . '/../../app/Models/Student.php';
+require_once __DIR__ . '/../../app/Models/Advisor.php';
+require_once __DIR__ . '/../../app/Models/Administrator.php';
+require_once __DIR__ . '/../../app/Models/Availability.php';
+require_once __DIR__ . '/../../app/Models/Appointment.php';
 
 echo "🌱 Seeding database...\n\n";
 
